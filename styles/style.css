@@ -140,6 +140,10 @@ ol {
 }
 
 .content__video-card-title {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 192px; 
   font-family: Oswald, Arial, Helvetica, sans-serif;
   font-weight: 700;
   font-size: 30px;
@@ -168,6 +172,7 @@ ol {
   display: flex;
   width: fit-content;
   gap: 5px;
+  align-items: center;
 }
 
 .search-form__label-text {
